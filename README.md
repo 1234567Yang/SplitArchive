@@ -6,6 +6,7 @@
 
 [中文](https://github.com/1234567Yang/SplitArchive) [English](https://github-com.translate.goog/1234567Yang/SplitArchive?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp)
 
+</div>
 <br>
 
 还在为 Cloudflare pages 文件最高 25MB 发愁？不如试试分卷压缩！
