@@ -36,6 +36,26 @@ namespace DownloadFromInternet
 
 
             HttpClient client = new HttpClient();
+            client.DefaultRequestHeaders.Add("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7");
+            client.DefaultRequestHeaders.Add("accept-language", "en,en-US;q=0.9");
+            client.DefaultRequestHeaders.Add("cache-control", "no-cache");
+            client.DefaultRequestHeaders.Add("pragma", "no-cache");
+            client.DefaultRequestHeaders.Add("priority", "u=0, i");
+            client.DefaultRequestHeaders.Add("sec-ch-ua", "\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"");
+            client.DefaultRequestHeaders.Add("sec-ch-ua-mobile", "?0");
+            client.DefaultRequestHeaders.Add("sec-ch-ua-platform", "\"Windows\"");
+            client.DefaultRequestHeaders.Add("sec-fetch-dest", "document");
+            client.DefaultRequestHeaders.Add("sec-fetch-mode", "navigate");
+            client.DefaultRequestHeaders.Add("sec-fetch-site", "none");
+            client.DefaultRequestHeaders.Add("sec-fetch-user", "?1");
+            client.DefaultRequestHeaders.Add("upgrade-insecure-requests", "1");
+            client.DefaultRequestHeaders.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0");
+
+
+
+
+
+
             int number = 0;
             while (true)
             {
