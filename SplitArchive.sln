@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitArchive", "SplitArchiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombineBack", "CombineBack\CombineBack.csproj", "{83E90F25-1940-401C-B92D-CCEECB083CB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadFromInternet", "DownloadFromInternet\DownloadFromInternet.csproj", "{9B72D9A1-88D2-427F-93D5-602CC8A27A41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{83E90F25-1940-401C-B92D-CCEECB083CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83E90F25-1940-401C-B92D-CCEECB083CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83E90F25-1940-401C-B92D-CCEECB083CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B72D9A1-88D2-427F-93D5-602CC8A27A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B72D9A1-88D2-427F-93D5-602CC8A27A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B72D9A1-88D2-427F-93D5-602CC8A27A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B72D9A1-88D2-427F-93D5-602CC8A27A41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
