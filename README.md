@@ -11,8 +11,16 @@
 
 还在为 Cloudflare pages 文件最高 25MB 发愁？不如试试分卷压缩！
 
+<br>
+
+~~我们的宗旨：~~
+* ~~薅秃 Cloudflare~~
+* ~~把 Cloudflare pages 当不限速网盘用~~
+
+<br>
+
 > [!NOTE]  
-> 对于大于 25MB 的视频文件，有时间我会写一个把 MP4 转为 m3u8 的程序。宗旨：薅秃 Cloudflare。
+> 对于大于 25MB 的视频文件，有时间我会写一个把 MP4 转为 m3u8 的程序。
 
 
 分卷压缩：
