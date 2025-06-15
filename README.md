@@ -26,5 +26,8 @@
 分卷压缩：
 <img src="img/split.png">
 <br>
+从网络上下载：
+<img src="img/download.png">
+<br>
 还原：
 <img src="img/combine.png">
