@@ -8,7 +8,16 @@ namespace CombineBack
     {
         static void Main(string[] args)
         {
-            CombineBack("C:\\C#sourceCode\\SplitArchive\\SplitArchive\\bin\\Debug\\net8.0\\output");
+            FLAG_DIR:
+            Console.WriteLine("Please indicate the directory: ");
+            string dir = Console.ReadLine();
+            if(!Directory.Exists(dir))
+            {
+                Console.WriteLine("Invalid directory! ");
+                goto FLAG_DIR;
+            }
+
+            CombineBack(dir);
         }
 
 
