@@ -138,7 +138,7 @@ namespace CombineBack
             File.Move(originalName + tempSuffix, originalName); //https://stackoverflow.com/questions/3218910/rename-a-file-in-c-sharp
 
 
-            Console.WriteLine($"Finished! \nFile path: ${path} \nFile name: {originalName}");
+            Console.WriteLine($"Finished! \nFile path: {path} \nFile name: {originalName}");
 
 
 
