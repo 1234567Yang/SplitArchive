@@ -99,8 +99,8 @@ namespace SplitArchive
                     totalRead_forUI += bytesRead;
                     while (totalRead_forUI >= addProgress)
                     {
-                        Console.Write("█");
                         totalRead_forUI -= addProgress;
+                        Console.Write("█");
                         Thread.Sleep(10);
                     }
                     #endregion
