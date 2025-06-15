@@ -122,6 +122,9 @@ namespace SplitArchive
             }
 
 
+            Console.WriteLine(""); // just to make a new line (the UI will not make a new line)
+
+
             #region hash
             // https://stackoverflow.com/questions/18535427/how-to-create-sha256-hash-of-downloaded-text-file
             SHA256 SHA256 = SHA256Managed.Create();
