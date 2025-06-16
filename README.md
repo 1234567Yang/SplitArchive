@@ -9,7 +9,28 @@
 </div>
 <br>
 
-还在为 Cloudflare pages 文件最高 25MB 发愁？不如试试分卷压缩！
+还在为 Cloudflare pages 文件最高 25MB 发愁？不如试试分卷压缩！将一个文件分成不同的小块，实现大文件照常上传。
+<br>
+
+### 示意图：
+
+#### 分割：
+```
+[--------------------------------------big_size_file--------------------------------------]
+                                            ↓ SplitArchive
+[----small_file_1----] [----small_file_2----] [----small_file_3----] [----small_file_4----][original_big_file_hash]
+```
+
+#### 合并：
+```
+[----small_file_1----] [----small_file_2----] [----small_file_3----] [----small_file_4----][original_big_file_hash]
+                                            ↓ CombineBack
+[--------------------------------------big_file_size--------------------------------------] ? Hash correct ?
+                                            ↓ Verify hash       -> Not correct: Warning
+[--------------------------------------big_file_size--------------------------------------]
+```
+
+
 
 <br>
 
@@ -25,6 +46,9 @@
 
 分卷压缩：
 <img src="img/split.png">
+<br>
+从网络上下载：
+<img src="img/download.png">
 <br>
 还原：
 <img src="img/combine.png">
