@@ -108,6 +108,10 @@ namespace DownloadFromInternet
 
 
                 number++;
+
+
+
+                Thread.Sleep(300); // 防止触发cf盾
             }
 
 
